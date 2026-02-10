@@ -8,8 +8,11 @@ public class main {
 
         totalYearlyMaintenance = springMaintenance + summerMaintnenace + fallMaintenance + winterMaintenance;
 
-        System.out.println(totalYearlyMaintenance);
-
+        System.out.println("Spring Maintenance is $" + springMaintenance);
+        System.out.println("Summer Maintenance is $" + summerMaintnenace);
+        System.out.println("Fall Maintenance is $" + fallMaintenance);
+        System.out.println("Winter Maintenance is $" + winterMaintenance);
+        System.out.println("Total Yearly Maintenance is $" + totalYearlyMaintenance);
 
     }
 }
